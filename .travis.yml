@@ -6,7 +6,7 @@ os: osx
 jdk: openjdk11
 
 script:
- - gradle assemble
- - gradle check
- - gradle build
+ - ./gradlew assemble
+ - ./gradlew check
+ - ./gradlew build
 

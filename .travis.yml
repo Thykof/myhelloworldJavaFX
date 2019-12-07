@@ -22,7 +22,7 @@ before_deploy:
 deploy:
  provider: releases
  token: $token
- file: "./build/libs/hellofxfourth.jar"
+ file: "./build/libs/myhelloworldJavaFX.jar"
  on: master
 
 before_cache:

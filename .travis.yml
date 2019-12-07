@@ -1,6 +1,6 @@
 language: java
 
-install: ./gradlew wrapper --gradle-version 4.2
+install: true
 
 os: osx
 jdk: openjdk11

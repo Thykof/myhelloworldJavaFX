@@ -24,6 +24,7 @@ deploy:
  token: $token
  file: "./build/libs/myhelloworldJavaFX.jar"
  on: master
+ skip_cleanup: true
 
 before_cache:
  - rm -f  $HOME/.gradle/caches/modules-2/modules-2.lock

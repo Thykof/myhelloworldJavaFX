@@ -16,10 +16,19 @@ dependencies {
 
 javafx {
     version = "13"
-    modules = [ 'javafx.controls' ]
+    modules = [ 'javafx.controls', 'javafx.fxml' ]
 }
 
-mainClassName = 'hellofx.HelloFX'
+mainClassName = 'hellofx.Main'
+
+sourceSets {
+    main {
+        resources {
+            srcDirs = ["src/main/java"]
+            includes = ["**/*.fxml"]
+        }
+    }
+}
 
 jar {
     manifest {

@@ -24,8 +24,11 @@ Configure github oauth token:
 Add resources in jar:
 <https://stackoverflow.com/questions/21128652/location-is-required-in-javafx-with-gradle>
 
-Package javafx application with gradle
+Package javafx application with gradle:
 <https://stackoverflow.com/questions/54063041/package-a-non-modular-javafx-application/54065502#54065502>
 
-Package javafx application without gradle
+Package javafx application without gradle:
 <https://stackoverflow.com/questions/53453212/how-to-deploy-a-javafx-11-desktop-application-with-a-jre>
+
+Read fxml files whtin the jar:
+<https://stackoverflow.com/a/44170061/5903242>

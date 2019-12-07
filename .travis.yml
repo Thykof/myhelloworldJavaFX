@@ -11,7 +11,7 @@ before_install:
 script:
  - ./gradlew build
  - pwd
- - ls -la
+ - ls -la build/libs
 
 before_deploy:
  - git config --local user.name "Thykof"
@@ -22,7 +22,7 @@ before_deploy:
 deploy:
  provider: releases
  token: $token
- file: "build/libs/hellofxfourth.jar"
+ file: "./build/libs/hellofxfourth.jar"
  on: master
 
 before_cache:

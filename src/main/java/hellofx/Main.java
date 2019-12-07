@@ -12,7 +12,7 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception{
-        URL url = getClass().getResource("./sample.fxml");
+        URL url = getClass().getResource("/hellofx/sample.fxml");
         FXMLLoader fxmlLoader = new FXMLLoader(url);
         GridPane root = (GridPane) fxmlLoader.load();
         Controller controller = (Controller) fxmlLoader.getController();

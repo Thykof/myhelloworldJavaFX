@@ -10,8 +10,6 @@ before_install:
 
 script:
  - ./gradlew build
- - pwd
- - ls -la build/libs
 
 before_deploy:
  - git config --local user.name "Thykof"

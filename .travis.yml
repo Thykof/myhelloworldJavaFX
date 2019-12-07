@@ -10,6 +10,7 @@ before_install:
 
 script:
  - ./gradlew build
+ - pwd
 
 before_deploy:
  - git config --local user.name "Thykof"
@@ -21,6 +22,7 @@ deploy:
  provider: releases
  token: $token
  file: "build/libs/hellofxfourth.jar"
+ on: master
 
 before_cache:
  - rm -f  $HOME/.gradle/caches/modules-2/modules-2.lock

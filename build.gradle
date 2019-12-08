@@ -8,6 +8,8 @@ repositories {
 }
 
 dependencies {
+    implementation 'com.google.code.gson:gson:2.8.2'
+
     /* uncomment for cross-platform jar: */
     runtimeOnly "org.openjfx:javafx-graphics:$javafx.version:win"
     runtimeOnly "org.openjfx:javafx-graphics:$javafx.version:linux"

@@ -30,5 +30,5 @@ Package javafx application with gradle:
 Package javafx application without gradle:
 <https://stackoverflow.com/questions/53453212/how-to-deploy-a-javafx-11-desktop-application-with-a-jre>
 
-Read fxml files whtin the jar:
+Read fxml files within the jar:
 <https://stackoverflow.com/a/44170061/5903242>
